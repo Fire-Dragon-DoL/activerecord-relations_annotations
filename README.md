@@ -1,4 +1,4 @@
-# Activerecord::RelationsAnnotations
+# RelationsAnnotations
 
 TODO: Write a gem description
 

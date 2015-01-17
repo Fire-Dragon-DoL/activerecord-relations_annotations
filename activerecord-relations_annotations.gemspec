@@ -5,7 +5,7 @@ require 'activerecord/relations_annotations/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "activerecord-relations_annotations"
-  spec.version       = Activerecord::RelationsAnnotations::VERSION
+  spec.version       = ActiveRecord::RelationsAnnotations::VERSION
   spec.authors       = ["Fire-Dragon-DoL"]
   spec.email         = ["francesco.belladonna@gmail.com"]
   spec.summary       = %q{Annotate ActiveRecord relations objects with custom data}
@@ -20,4 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.1.0"
+
+  spec.add_dependency "activerecord", "~> 4.0"
 end

@@ -1,6 +1,6 @@
-require "activerecord/relations_annotations/version"
+require 'activerecord/relations_annotations/version'
 
-module Activerecord
+module ActiveRecord
   module RelationsAnnotations
     # Your code goes here...
   end
