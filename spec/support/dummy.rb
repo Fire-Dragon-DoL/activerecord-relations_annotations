@@ -4,5 +4,4 @@ require 'support/config/active_record'
 
 class Dummy < ActiveRecord::Base
   include ActiveRecord::RelationsAnnotations
-
 end

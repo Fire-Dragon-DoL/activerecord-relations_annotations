@@ -1,5 +1,4 @@
-require 'pathname'
-$LOAD_PATH << Pathname.new(File.expand_path('..', __FILE__)).to_s
+$LOAD_PATH << File.expand_path('..', __FILE__).to_s
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -13,12 +12,8 @@ RSpec.configure do |config|
   config.filter_run :focus
   config.run_all_when_everything_filtered = true
   config.disable_monkey_patching!
-  config.warnings = true
+  # config.warnings = true
   config.default_formatter = 'doc' if config.files_to_run.one?
   config.order = :random
   Kernel.srand config.seed
 end
-
-# support_path = Pathname.new(File.expand_path('..', __FILE__))
-# support_path = support_path.join('support', '**', '*.rb')
-# Dir[support_path].each { |f| require f }
