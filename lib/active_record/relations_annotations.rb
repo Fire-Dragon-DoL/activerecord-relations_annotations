@@ -4,6 +4,10 @@ require 'active_record/relations_annotations/version'
 
 module ActiveRecord
   module RelationsAnnotations
-    # Your code goes here...
+    extend ActiveSupport::Concern
+
+    module ClassMethods
+    end
+
   end
 end
