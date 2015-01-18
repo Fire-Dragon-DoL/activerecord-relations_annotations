@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Fire-Dragon-DoL"]
   spec.email         = ["francesco.belladonna@gmail.com"]
   spec.summary       = %q{Annotate ActiveRecord relations objects with custom data}
-  spec.description   = %q{Annotate ActiveRecord relations objects with custom data, allowing polymorphism on methods for group of records fetched through the same query}
+  spec.description   = %q{Annotate ActiveRecord relations objects with custom data, allowing metadata on relations that can be used to customize code}
   spec.homepage      = "https://github.com/Fire-Dragon-DoL/activerecord-relations_annotations"
   spec.license       = "MIT"
 
